@@ -1,0 +1,21 @@
+{
+    "name": "shura/php-which",
+    "description": "A pure PHP implementation of which shell command.",
+    "type": "library",
+    "license": "BDS-3-Clause",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Domenico Shura",
+            "email": "shura1991@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shura\\Which\\": "src"
+        }
+    }
+}
